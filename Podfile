@@ -6,5 +6,7 @@ target 'Firebase_PushNotification' do
   use_frameworks!
 
   # Pods for Firebase_PushNotification
+  pod 'Firebase/Core'
+  pod 'Firebase/Messaging'
 
 end
